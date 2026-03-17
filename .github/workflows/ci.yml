@@ -60,7 +60,9 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Enable Corepack
-        run: corepack enable
+        run: |
+          corepack enable
+          npm install -g npm@latest
 
       - name: Install Dependencies
         run: yarn install
@@ -103,7 +105,9 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Enable Corepack
-        run: corepack enable
+        run: |
+          corepack enable
+          npm install -g npm@latest
 
       - name: Install Dependencies
         run: yarn install
@@ -147,7 +151,9 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Enable Corepack
-        run: corepack enable
+        run: |
+          corepack enable
+          npm install -g npm@latest
 
       - name: Install Dependencies
         run: yarn install
