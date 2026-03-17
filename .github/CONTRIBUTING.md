@@ -2,7 +2,7 @@
 
 :tada: First off, thanks for taking the time to contribute!
 
-The following is a set of guidelines for contributing to the `piral-cli-vite7` packages, which is hosted in the smapiot organization on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to the `piral-cli-vite8` packages, which is hosted in the smapiot organization on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
@@ -14,19 +14,19 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 ### Development Instructions
 
-Please find more information about how to setup your machine for developing the `piral-cli-vite7` packages in [the source documentation](../README.md).
+Please find more information about how to setup your machine for developing the `piral-cli-vite8` packages in [the source documentation](../README.md).
 
 ### Reporting Bugs
 
-Before creating bug report, please make sure that you first check the [existing issues](https://github.com/smapiot/piral-cli-vite7/issues?q=is%3Aopen+is%3Aissue+label%3Abug), as you might find that the issue is already reported. Fill out [the required template](https://github.com/smapiot/piral-cli-vite7/issues/new?template=bug_report.md), the information it asks for helps us resolve issues faster.
+Before creating bug report, please make sure that you first check the [existing issues](https://github.com/smapiot/piral-cli-vite8/issues?q=is%3Aopen+is%3Aissue+label%3Abug), as you might find that the issue is already reported. Fill out [the required template](https://github.com/smapiot/piral-cli-vite8/issues/new?template=bug_report.md), the information it asks for helps us resolve issues faster.
 
 Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer:, and find related reports :mag_right:.
 
 ### Suggesting Enhancements
 
-This section guides you through submitting an enhancement suggestion for the `piral-cli-vite7` packages, including completely new features and minor improvements to existing functionality.
+This section guides you through submitting an enhancement suggestion for the `piral-cli-vite8` packages, including completely new features and minor improvements to existing functionality.
 
-Before creating enhancement suggestions, please make sure that you first check the [existing suggestions](https://github.com/smapiot/piral-cli-vite7/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement), as you might find that the enhancement has already been requested. Fill out [the template](https://github.com/smapiot/piral-cli-vite7/issues/new?template=feature_request.md), including the steps that you imagine you would take if the feature you're requesting existed.
+Before creating enhancement suggestions, please make sure that you first check the [existing suggestions](https://github.com/smapiot/piral-cli-vite8/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement), as you might find that the enhancement has already been requested. Fill out [the template](https://github.com/smapiot/piral-cli-vite8/issues/new?template=feature_request.md), including the steps that you imagine you would take if the feature you're requesting existed.
 
 #### How Do I Submit a Suggestion
 
@@ -35,7 +35,7 @@ Enhancements or general suggestions are tracked as [GitHub issues](https://guide
 - **Use a clear and descriptive title** for the issue to identify the suggestion.
 - **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
 - **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
-- **Include screenshots and animated GIFs** which help you demonstrate the steps or point out the part of the `piral-cli-vite7` packages which the suggestion is related to. *Note*: We usually live in code. Any code you can already show would be the best illustration.
+- **Include screenshots and animated GIFs** which help you demonstrate the steps or point out the part of the `piral-cli-vite8` packages which the suggestion is related to. *Note*: We usually live in code. Any code you can already show would be the best illustration.
 
 ## Branching Model
 
@@ -98,12 +98,12 @@ Following is a short guide on how to make a valid Pull Request.
 
 1. Firstly you need a local fork of the the project, so go ahead and press the `fork` button in
    GitHub. This will create a copy of the repository in your own GitHub account and you'll see a
-   note that it's been forked underneath the project name: `Forked from smapiot/piral-cli-vite7`.
+   note that it's been forked underneath the project name: `Forked from smapiot/piral-cli-vite8`.
    Clone the newly forked repository locally and set up a new remote that points to the original
    project so that you can grab any changes and bring them into your local copy.
 
    ```sh
-   git remote add upstream git@github.com:smapiot/piral-cli-vite7.git
+   git remote add upstream git@github.com:smapiot/piral-cli-vite8.git
    ```
 
    You now have two remotes for this project on disk:
@@ -115,7 +115,7 @@ Following is a short guide on how to make a valid Pull Request.
 
 2. Create the branch, following or [Branching Model](#branching-model).
 
-3. Do some work :) This is the fun part where you get to contribute to the `piral-cli-vite7` packages :rocket:.
+3. Do some work :) This is the fun part where you get to contribute to the `piral-cli-vite8` packages :rocket:.
 
 4. Before pushing your code, few more task that need to be preformed:
 
@@ -136,7 +136,7 @@ Following is a short guide on how to make a valid Pull Request.
    ```
 
 6. After the code is successfully pushed to the origin repository, navigate to
-   [`piral-cli-vite7` repository](https://github.com/smapiot/piral-cli-vite7/pulls)
+   [`piral-cli-vite8` repository](https://github.com/smapiot/piral-cli-vite8/pulls)
    and issue a new pull request.
 
 You may merge the Pull Request in once you have the sign-off of at least one other (core) developer, or if you do not have permission to do that, you may request the reviewer to merge it for you.

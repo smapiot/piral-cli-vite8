@@ -12,7 +12,7 @@ jobs:
       - uses: smapiot/send-tweet-v2-action@v1
         name: Tweet new release
         with:
-          status: "New ${{ github.event.repository.name }} release ${{ github.event.release.tag_name }}! ${{ github.event.release.html_url }} #microfrontends #piral #cli #vite7 #release"
+          status: "New ${{ github.event.repository.name }} release ${{ github.event.release.tag_name }}! ${{ github.event.release.html_url }} #microfrontends #piral #cli #vite8 #release"
           consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
           consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
@@ -20,6 +20,6 @@ jobs:
       - uses: smapiot/send-bluesky-post-action@v2
         name: Bluesky post new release
         with:
-          status: "New ${{ github.event.repository.name }} release ${{ github.event.release.tag_name }}! ${{ github.event.release.html_url }} #microfrontends #piral #cli #vite7 #release"
+          status: "New ${{ github.event.repository.name }} release ${{ github.event.release.tag_name }}! ${{ github.event.release.html_url }} #microfrontends #piral #cli #vite8 #release"
           bluesky-email: ${{ secrets.BLUESKY_EMAIL }}
           bluesky-password: ${{ secrets.BLUESKY_PASSWORD }}
