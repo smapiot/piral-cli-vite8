@@ -65,6 +65,9 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
+      - name: Build Code
+        run: yarn build
+
       - name: Configure Git
         run: |
           git config --global user.email "releases@piral.io"
@@ -104,6 +107,9 @@ jobs:
 
       - name: Install Dependencies
         run: yarn install
+
+      - name: Build Code
+        run: yarn build
 
       - name: Configure Git
         run: |
@@ -145,6 +151,9 @@ jobs:
 
       - name: Install Dependencies
         run: yarn install
+
+      - name: Build Code
+        run: yarn build
 
       - name: Configure Git
         run: |
