@@ -1,6 +1,6 @@
-import pilet from 'vite-plugin-pilet';
 import type { PiletBuildHandler } from 'piral-cli';
 
+import pilet from '../plugins/pilet.js';
 import systemjs from '../plugins/systemjs.js';
 import { createCommonConfig } from './common.js';
 import { runVite } from './bundler-run.js';

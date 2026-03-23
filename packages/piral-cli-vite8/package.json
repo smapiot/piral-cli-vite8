@@ -47,14 +47,15 @@
     "piral-cli": "1.9.0"
   },
   "dependencies": {
+    "@jridgewell/sourcemap-codec": "^1.4.15",
     "@babel/core": "^7",
     "@babel/plugin-transform-dynamic-import": "^7",
     "@babel/plugin-transform-modules-systemjs": "^7",
     "cheerio": "^1",
+    "magic-string": "^0.30.5",
     "sass": "^1",
     "vite": "^8",
     "vite-plugin-codegen": "^2",
-    "vite-plugin-environment": "^1",
-    "vite-plugin-pilet": "^1"
+    "vite-plugin-environment": "^1"
   }
 }
