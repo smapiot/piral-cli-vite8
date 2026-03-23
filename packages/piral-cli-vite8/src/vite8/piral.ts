@@ -4,8 +4,8 @@ import { load } from 'cheerio';
 import { dirname, resolve } from 'path';
 import { readFileSync, readdirSync, writeFileSync } from 'fs';
 
-import { createCommonConfig } from './common';
-import { runVite } from './bundler-run';
+import { createCommonConfig } from './common.js';
+import { runVite } from './bundler-run.js';
 
 function isLocal(path: string) {
   if (path) {

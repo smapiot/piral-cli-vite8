@@ -1,8 +1,9 @@
 import pilet from 'vite-plugin-pilet';
-import systemjs from '../plugins/systemjs';
 import type { PiletBuildHandler } from 'piral-cli';
-import { createCommonConfig } from './common';
-import { runVite } from './bundler-run';
+
+import systemjs from '../plugins/systemjs.js';
+import { createCommonConfig } from './common.js';
+import { runVite } from './bundler-run.js';
 
 function nameOf(path: string) {
   return path.replace(/\.js$/, '');
