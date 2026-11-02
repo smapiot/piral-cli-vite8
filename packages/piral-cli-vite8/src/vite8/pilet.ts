@@ -82,6 +82,15 @@ const handler: PiletBuildHandler = {
           input,
           output: {
             ...config.build.rollupOptions.output,
+            ...(config.build.minify
+              ? {
+                  minify: {
+                    compress: true,
+                    mangle: true,
+                    codegen: true,
+                  },
+                }
+              : {}),
             assetFileNames(assetInfo) {
               // keep name of combined stylesheet
               if (assetInfo.name === 'style.css') {
