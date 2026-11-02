@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.0.1
+## 1.0.1 (tbd)
 
-- Fixed missing whitespace minification of pilets
+- Improved minification of pilets with whitespace removal (#3) @ryantrappy
 
 ## 1.0.0 (March 24, 2026)
 
